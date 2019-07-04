@@ -20,16 +20,16 @@ sudo apt-get install curl libcurl3 libcurl3-dev php5 php5-cli php5-curl</i>
 ```
 
 ### Argument list
-| Argument              | Meaning                                                       |
-|-----------------------|---------------------------------------------------------------|
-| --range               | Will set IP range that will be scanned. ex: 201.12.60.0-255   |
-| --dns1 /dns2          | To specify DNS addresses                                      |
-| --output              | To save output from standard output to a file                 |
-| --threads 10          | Set threads numbers                                           |
-| --rand                | Randomizing ips routers                                       |
-| --limit-ip 10         | Define limit random ip                                        |
-| --file                | Input a file containing a list of ip addresses to scan        |
-
+ | Argument              | Meaning                                                       |
+ |-----------------------|---------------------------------------------------------------|
+ | --range               | Will set IP range that will be scanned. ex: 201.12.60.0-255   |
+ | --dns1 /dns2          | To specify DNS addresses                                      |
+ | --output              | To save output from standard output to a file                 |
+ | --threads 10          | Set threads numbers                                           |
+ | --rand                | Randomizing ips routers                                       |
+ | --limit-ip 10         | Define limit random ip                                        |
+ | --file                | Input a file containing a list of ip addresses to scan        |
+ ---------------------------------------------------------------------------------------
 ### Usage Examples
 ```
 # Simple search

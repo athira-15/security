@@ -15,16 +15,16 @@
 * It includes around 47,000 vulnerabilities in its database.
 * The GUI interface of OpenVAS is divided into following multiple menus
 
-| OpenVAS GUI Menu      |   Purpose                                         |
-|-----------------------|---------------------------------------------------|
-| Dashboard             |   A customizable dashboard that presents information related to vulnerability management, scanned hosts, recently published vulnerability disclosures and other useful information. |
-| Scans                 |   From here a new network vulnerability assessment scan can be started. All the reports and findings can be tracked under this menu. |
-| Assets                |   All the accumulated hosts from the scans can be found. |
-| SecInfo               |   The detailed information of all vulnerabilities and their CVE IDs are stored in SecInfo. |
-| Configuration         |   Various options such as alerts, scheduling and reporting formats can be configured. Scanning options for host and open port discovery can also be customized using this menu. |
-| Extras                |   Settings related to OpenVAS GUI, such as time and language can be done using this menu.    |
-| Administration        |   Adding and deleting users and feed synchronization can be done through administration menu.   |
-
+ | OpenVAS GUI Menu      | Purpose                                                                                                                                                                              |
+ |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+ | Dashboard             | A customizable dashboard that presents information related to vulnerability management, scanned hosts, recently published vulnerability disclosures and other useful information.    |
+ | Scans                 | From here a new network vulnerability assessment scan can be started. All the reports and findings can be tracked under this menu.                                                   |
+ | Assets                | All the accumulated hosts from the scans can be found.                                                                                                                               |
+ | SecInfo               | The detailed information of all vulnerabilities and their CVE IDs are stored in SecInfo.                                                                                             |
+ | Configuration         | Various options such as alerts, scheduling and reporting formats can be configured. Scanning options for host and open port discovery can also be customized using this menu.        |
+ | Extras                | Settings related to OpenVAS GUI, such as time and language can be done using this menu.                                                                                              |
+ | Administration        | Adding and deleting users and feed synchronization can be done through administration menu.                                                                                          |
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * It comes with the following capabilities
     - Unauthenticated testing
     - Authenticated testing

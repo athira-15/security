@@ -19,11 +19,13 @@
     - Metasploit Framework and its dependencies (PostgreSQL Database and Nmap)
     - Oracle's Java 1.7
 * Following are the steps carried out in Armitage to discover hosts and spot potential exploitable vulnerabilities in it
-    * To launch Armitage run the command 'armitage'. During startup, select Start MSF, which will allow Armitage to connect to the Metasploit instance.
+    * To launch Armitage run the command 'armitage'. During startup, select Start MSF, which will allow Armitage to 
+      connect to the Metasploit instance.
     * After Armitage is running there are two ways to add hosts :
         * Manually adding the IP's that is on the target list.
-        * Else find all hosts through Nmap Quick Scan by selecting Hosts => Nmap Scan => Quick Scan(OS detect).
-        * On selecting Nmap Quick Scan, fill out the range as per the series to be scanned, for example 192.168.179.0/24.
+        * Else find all hosts through Nmap Quick Scan by selecting `Hosts => Nmap Scan => Quick Scan(OS detect)`.
+        * On selecting Nmap Quick Scan, fill out the range as per the series to be scanned, 
+          `for example 192.168.179.0/24`
         * Armitage will scan the range or single IP address then present it in the black box.
     * Armitage GUI has three distinct areas: Targets, Console and Modules.
         * Targets list all the machines that have been discovered.

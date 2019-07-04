@@ -23,33 +23,37 @@
   vulnerability can be tested for exploitation.
 * Following are the configuration options available in w3af command line console:
 
-| Option            |            Meaning              |
-|-------------------|---------------------------------|
-| start             |   Start the scan                |                                                                                                           
-| plugins           | Enable and configure plugins.   |                                                                                            
-| exploit           | Exploit the vulnerability.      |                                                                                          
-| profiles          | List and use scan profiles.     |                                                                                           
-| cleanup           | Cleanup before starting a new scan.   |                                                                                     
-| help              | Display help. Issuing: help [command] , prints more specific help about "command"  |
-| version           | Show w3af version information.   |
-| keys              | Display key shortcuts. |
-| http-settings     | Configure the HTTP settings of the framework. |                                                                           |
-| misc-settings     | Configure w3af misc settings. |                                                                                          |
-| target            | Configure the target URL.   |                                                                                               |
-| back              | Go to the previous menu.   |
-| exit              | Exit w3af.   |
-| kb                | Browse the vulnerabilities stored in the Knowledge Base    |
+ | Option            | Meaning                                                                               |
+ |-------------------|---------------------------------------------------------------------------------------|
+ | start             | Start the scan                                                                        |                                                                                                           
+ | plugins           | Enable and configure plugins.                                                         |                                                                                            
+ | exploit           | Exploit the vulnerability.                                                            |                                                                                          
+ | profiles          | List and use scan profiles.                                                           |                                                                                           
+ | cleanup           | Cleanup before starting a new scan.                                                   |                                                                                     
+ | help              | Display help. Issuing: help [command] , prints more specific help about "command"     |
+ | version           | Show w3af version information.                                                        |
+ | keys              | Display key shortcuts.                                                                |
+ | http-settings     | Configure the HTTP settings of the framework.                                         |                                                                           |
+ | misc-settings     | Configure w3af misc settings.                                                         |                                                                                          |
+ | target            | Configure the target URL.                                                             |                                                                                               |
+ | back              | Go to the previous menu.                                                              |
+ | exit              | Exit w3af.                                                                            |
+ | kb                | Browse the vulnerabilities stored in the Knowledge Base                               |
+ -----------------------------------------------------------------------------------------------------------
+ 
 * The http-settings and the misc-settings configuration menus are used to set system wide parameters that are used by  
   the framework. It is flexible enough to be used by both beginners and experts.
 * All configuration menus provide the following commands for easy and quick configuration of scans
 
-|       Command     |   Meaning         |
-|-------------------|--------------------|
-| view              |   list the available options and their values |
-| set               |   set a parameter value   |
-| save              |   save the configured settings |
-| back              |   go to previous menu |
-| exit              |   exit w3af |
-
+ |       Command     | Meaning                                        |
+ |-------------------|------------------------------------------------|
+ | view              | list the available options and their values    |
+ | set               | set a parameter value                          |
+ | save              | save the configured settings                   |
+ | back              | go to previous menu                            |
+ | exit              | exit w3af                                      |
+  --------------------------------------------------------------------
+  
 * The scan can be started soon after configuring the desired plugins and followed by setting the targate URL.
-* Once the plugin and framework configuration is set, it is possible to save this information to a profile, by using 'profiles' option.
+* Once the plugin and framework configuration is set, it is possible to save this information to a profile, by using 
+  'profiles' option.
