@@ -142,11 +142,11 @@
 
 ### Usage Examples    
 ````
-* snort -A console -q -c /etc/snort/snort.conf -i eth0` <br>
+* snort -A console -q -c /etc/snort/snort.conf -i eth0
     * Snort is up and listening on interface eth0. It will generate alerts to the console. 
-* tcpdump -r /var/log/snort/snort.log <br>
+* tcpdump -r /var/log/snort/snort.log 
     * Check the connection attempt on Snort server 
-* snort -d -h 192.168.10.0 -l -c snort.conf <br>
+* snort -d -h 192.168.10.0 -l -c snort.conf 
     * Run snort for intrusion detection and log all packets relative to 192.168.10.0 network 
 * snort -l /var/log/snort -b
     * To log packets in binary format to /var/log/snort     
